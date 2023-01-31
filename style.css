@@ -8,6 +8,7 @@
   --chica: 20px;
   --mid: 40px;
   --grande: 60px;
+  --xgrande: 100px
 }
 
 body {
@@ -76,4 +77,18 @@ body {
 
 .presentation img{
   max-width: 1000px;
+}
+
+#tecnologias-container{
+  height: 100vh;
+}
+
+.tecnologia-img img{
+  max-width: 500px;
+}
+
+#tecnologias-container h1{
+  text-align: center;
+  margin: 50px;
+  font-size: var(--grande);
 }
