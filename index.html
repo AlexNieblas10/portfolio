@@ -20,7 +20,6 @@
   </head>
 
   <body>
-
     <header class="header">
       <nav class="ul-container">
         <ul class="links sections-link">
@@ -42,20 +41,57 @@
           </li>
         </ul>
       </nav>
-      <section class="presentation">
-        <img src="./animations/Developer activity.gif" alt="Animacion extraida de la web">
-        <h1>Hola, soy Alex y <br> soy  <strong>Front-end developer</strong> </h1>
+
+      <section id="about">
+        <div id="img-container">
+          <img src="assets/Developer activity.gif" alt="" />
+        </div>
+        <div id="text-container">
+          <h1>
+            Hola, soy Alex, soy front-end developer autodidacta.
+          </h1>
+        </div>
       </section>
     </header>
 
-    <section id="tecnologias-container">
-        <h1>Tecnologias</h1>
+    <section id="tecnologias-main">
+      <h1>Tecnologias</h1>
+      <aside class="tecnologias-container">
         <div class="tecnologia-img">
-          <img src="animations/Static assets-amico.svg" alt="">
+          <img src="assets/Static assets-amico.svg" alt="" />
         </div>
         <div class="tecnologias">
-          
+          <div class="tecnologia">
+            <i class="fa-brands fa-html5 logo" id="html"></i>
+            <h2 class="nombre">HTML</h2>
+          </div>
+          <div class="tecnologia">
+            <i class="fa-brands fa-css3-alt logo" id="css"></i>
+            <h2 class="nombre">CSS</h2>
+          </div>
+          <div class="tecnologia">
+            <i class="fa-brands fa-js logo" id="javascript"></i>
+            <h2 class="nombre">JavaScript</h2>
+          </div>
+          <div class="tecnologia">
+            <i class="fa-brands fa-react logo" id="react"></i>
+            <h2 class="nombre">react</h2>
+          </div>
+
+          <div class="tecnologia">
+            <i class="fa-brands fa-github logo" id="github"></i>
+            <h2 class="nombre">GitHub</h2>
+          </div>
+          <div class="tecnologia">
+            <i class="fa-brands fa-git-alt logo" id="git"></i>
+            <h2 class="nombre">Git</h2>
+          </div>
+          <div class="tecnologia">
+            <i class="fa-solid fa-terminal logo" id="terminal"></i>
+            <h2 class="nombre">Terminal</h2>
+          </div>
         </div>
+      </aside>
     </section>
 
     <script src="index.js"></script>

@@ -6,9 +6,34 @@
   --xgruesa: 900;
 
   --chica: 20px;
-  --mid: 40px;
+  --mid: 30px;
   --grande: 60px;
-  --xgrande: 100px
+  --xgrande: 100px;
+
+  --html: #f06529;
+  --css: #264de4;
+  --js: #f7df1e;
+  --react: #7cc5d9;
+  --git: #f34f29;
+  --terminal: #008f39;
+}
+#html {
+  color: var(--html);
+}
+#css {
+  color: var(--css);
+}
+#javascript {
+  color: var(--js);
+}
+#react {
+  color: var(--react);
+}
+#git {
+  color: var(--git);
+}
+#terminal {
+  color: var(--terminal);
 }
 
 body {
@@ -59,36 +84,62 @@ body {
   border-radius: 16px;
 }
 
-.presentation{
+#about {
   height: 90%;
+  width: 100%;
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
   align-items: center;
+  padding: 50px;
+  box-sizing: border-box;
 }
 
-.presentation h1{
-  width: 60%;
-  font-size: var(--grande);
-  font-weight: var(--chica);
+#about #img-container {
+  padding: 50px;
 }
 
-.presentation strong{
-  color: green;
+#about #text-container {
+  padding: 50px;
+  font-size: var(--mid);
 }
 
-.presentation img{
-  max-width: 1000px;
-}
-
-#tecnologias-container{
+#tecnologias-main {
   height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
-.tecnologia-img img{
-  max-width: 500px;
-}
-
-#tecnologias-container h1{
+#tecnologias-main h1 {
   text-align: center;
   margin: 50px;
   font-size: var(--grande);
+}
+
+.tecnologias-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-direction: row-reverse;
+}
+.tecnologias-container .tecnologia-img {
+  width: 50%;
+  text-align: center;
+}
+.tecnologias {
+  width: 50%;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tecnologia .logo {
+  font-size: 70px;
+}
+
+.tecnologia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
